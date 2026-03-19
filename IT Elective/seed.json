@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "display_name": "Admin User"
+    }
+  ],
+  "categories": [
+    { "name": "Groceries" },
+    { "name": "Clothing" },
+    { "name": "Household" },
+    { "name": "Electronics" }
+  ],
+  "purchases": [
+    {
+      "username": "admin",
+      "item_name": "Reusable water bottle",
+      "category": "Household",
+      "price": 12.99,
+      "purchased_on": "2026-01-12",
+      "is_eco_friendly": true,
+      "eco_tags": ["reusable", "plastic-free"]
+    },
+    {
+      "username": "admin",
+      "item_name": "Single-use plastic cutlery pack",
+      "category": "Household",
+      "price": 3.5,
+      "purchased_on": "2026-01-20",
+      "is_eco_friendly": false,
+      "eco_tags": ["single-use", "plastic"]
+    },
+    {
+      "username": "admin",
+      "item_name": "Organic rice",
+      "category": "Groceries",
+      "price": 4.75,
+      "purchased_on": "2026-02-05",
+      "is_eco_friendly": true,
+      "eco_tags": ["organic"]
+    }
+  ]
+}
